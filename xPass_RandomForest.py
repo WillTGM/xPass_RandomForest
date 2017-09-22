@@ -42,5 +42,3 @@ def load_data_from_file(file):#load data from file
     data = np.delete(data, 0, 0)  # Erases the first row (i.e. the header)
     f.close()
     return data
-
-calc_xP_RandomForest(trainX,trainY,testX,testY,num_estimators)
